@@ -1,4 +1,4 @@
-namespace ED1_Javier_Lopez_1049722_Practica1.Models
+namespace ED1_Practica01.Models
 {
     public class ErrorViewModel
     {

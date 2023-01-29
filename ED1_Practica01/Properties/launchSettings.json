@@ -3,16 +3,16 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:17241",
+      "applicationUrl": "http://localhost:58168",
       "sslPort": 0
     }
   },
   "profiles": {
-    "ED1_Javier_Lopez_1049722_Practica1": {
+    "ED1_Practica01": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:5176",
+      "applicationUrl": "http://localhost:5207",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
