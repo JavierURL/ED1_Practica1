@@ -12,6 +12,10 @@ namespace ED1_Practica01.Controllers
         List<Clientes> ListaDeClientes = new List<Clientes>();
         public HomeController(ILogger<HomeController> logger)
         {
+
+            _logger = logger;
+            ListaDeClientes.Add(new Clientes() {Nombre = "Javier", Apellido = "López", Nacionalidad = "Guatemalteco", Edad = 25, Profesion = "Ingeniero", Ingresos = 5200, Contacto = 45938711 });
+            ListaDeClientes.Add(new Clientes() { Nombre = "Marco", Apellido = "Hakimi", Nacionalidad = "Marroqui", Edad = 31, Profesion = "Arquitecto", Ingresos = 10500, Contacto = 35761293 });
         }
 
         public List<Clientes> Index()
