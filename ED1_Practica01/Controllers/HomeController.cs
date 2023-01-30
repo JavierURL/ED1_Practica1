@@ -16,6 +16,7 @@ namespace ED1_Practica01.Controllers
             _logger = logger;
             ListaDeClientes.Add(new Clientes() {Nombre = "Javier", Apellido = "López", Nacionalidad = "Guatemalteco", Edad = 25, Profesion = "Ingeniero", Ingresos = 5200, Contacto = 45938711 });
             ListaDeClientes.Add(new Clientes() { Nombre = "Marco", Apellido = "Hakimi", Nacionalidad = "Marroqui", Edad = 31, Profesion = "Arquitecto", Ingresos = 10500, Contacto = 35761293 });
+            ListaDeClientes.Add(new Clientes() { Nombre = "Diego", Apellido = "Azurdia", Nacionalidad = "Guatemalteco", Edad = 20, Profesion = "Ingeniebrio", Ingresos = 20000, Contacto = 49964833});
         }
 
         public List<Clientes> Index()
