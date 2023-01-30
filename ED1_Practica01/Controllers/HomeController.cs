@@ -7,23 +7,16 @@ namespace ED1_Practica01.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly Cliente cliente1;
+       
 
+        List<Clientes> ListaDeClientes = new List<Clientes>();
         public HomeController(ILogger<HomeController> logger)
         {
-            _logger = logger;
-            cliente1 = new Cliente();
-
-            cliente1.Edad = 35;
-            cliente1.Nombre = "Marco";
-            cliente1.Profesion = "Arquitecto";
-            cliente1.Nacionalidad = "Guatemalteco";
-            cliente1.Ingresos = 5000;
         }
 
-        public Cliente Index()
+        public List<Clientes> Index()
         {
-            return cliente1;
+            return ListaDeClientes;
         }
 
         public IActionResult Privacy()
