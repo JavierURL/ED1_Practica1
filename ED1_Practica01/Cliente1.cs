@@ -6,13 +6,9 @@
         public string Apellido { get; set; }
         public int Edad { get; set; }
         public string Profesion { get; set; }
-
         public string Nacionalidad { get; set; }
-
         public int Ingresos { get; set; }
-
         public int Contacto { get; set; }
-
         
     }
 }
