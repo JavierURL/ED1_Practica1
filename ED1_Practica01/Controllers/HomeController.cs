@@ -21,7 +21,7 @@ namespace ED1_Practica01.Controllers
             ListaDeClientes.Add(new Clientes() { Nombre = "Katherine", Apellido = "Mayen", Nacionalidad = "Guatemalteca", Edad = 19, Profesion = "Ingeniera", Ingresos = 10800, Contacto = 47062022 });
             ListaDeClientes.Add(new Clientes() { Nombre = "Sebastian", Apellido = "Rangel", Nacionalidad = "Español", Edad = 21, Profesion = "Médico", Ingresos = 12000, Contacto = 42883101 });
             ListaDeClientes.Add(new Clientes() { Nombre = "Juan Esteban", Apellido = "Rodriguez", Nacionalidad = "Guatemalteco", Edad = 19, Profesion = "Ingeniero", Ingresos = 11500, Contacto = 55069781 });
-            ListaDeClientes.Add(new Clientes() { Nombre = "Lucia", Apellido = "Muralles", Nacionalidad = "Canadiense", Edad = 28, Profesion = "Abogada", Ingresos = 7500, Contacto = 35236974 });
+            ListaDeClientes.Add(new Clientes() { Nombre = "Marta", Apellido = "Muralles", Nacionalidad = "Canadiense", Edad = 28, Profesion = "Abogada", Ingresos = 7500, Contacto = 35236974 });
 
         }
 
