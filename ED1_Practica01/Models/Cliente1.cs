@@ -1,4 +1,4 @@
-﻿namespace ED1_Practica01
+﻿namespace ED1_Practica01.Models
 {
     public class Clientes
     {
@@ -9,6 +9,6 @@
         public string Nacionalidad { get; set; }
         public int Ingresos { get; set; }
         public int Contacto { get; set; }
-        
+
     }
 }
