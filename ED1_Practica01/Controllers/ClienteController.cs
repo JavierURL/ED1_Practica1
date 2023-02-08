@@ -27,7 +27,7 @@ namespace ED1_Practica01.Controllers
             ListaDeClientes.Add(new Clientes() { Nombre = "Juan Esteban", Apellido = "Rodriguez", Nacionalidad = "Guatemalteco", Edad = 19, Profesion = "Ingeniero", Ingresos = 11500, Contacto = 55069781 });
             ListaDeClientes.Add(new Clientes() { Nombre = "Martina", Apellido = "Muralles", Nacionalidad = "Canadiense", Edad = 28, Profesion = "Abogada", Ingresos = 7500, Contacto = 35236974 });
             ListaDeClientes.Add(new Clientes() { Nombre = "Lucia", Apellido = "Gomez", Nacionalidad = "Africana", Edad = 56, Profesion = "Auditora", Ingresos = 6400, Contacto = 26457893 });
-            ListaDeClientes.Add(new Clientes() { Nombre = "Daniela", Apellido = "Velasquez", Nacionalidad = "Polaca", Edad = 24, Profesion = "Nutricionista", Ingresos = 3800, Contacto = 45781230 });
+            ListaDeClientes.Add(new Clientes() { Nombre = "Amelia", Apellido = "Velasquez", Nacionalidad = "Polaca", Edad = 24, Profesion = "Nutricionista", Ingresos = 3800, Contacto = 45781230 });
 
             return ListaDeClientes;
         }
@@ -47,7 +47,7 @@ namespace ED1_Practica01.Controllers
             ListaDeClientes.Add(new Clientes() { Nombre = "Juan Esteban", Apellido = "Rodriguez", Nacionalidad = "Guatemalteco", Edad = 19, Profesion = "Ingeniero", Ingresos = 11500, Contacto = 55069781 });
             ListaDeClientes.Add(new Clientes() { Nombre = "Martina", Apellido = "Muralles", Nacionalidad = "Canadiense", Edad = 28, Profesion = "Abogada", Ingresos = 7500, Contacto = 35236974 });
             ListaDeClientes.Add(new Clientes() { Nombre = "Lucia", Apellido = "Gomez", Nacionalidad = "Africana", Edad = 56, Profesion = "Auditora", Ingresos = 6400, Contacto = 26457893 });
-            ListaDeClientes.Add(new Clientes() { Nombre = "Daniel", Apellido = "Gómez", Nacionalidad = "Polaca", Edad = 24, Profesion = "Nutricionista", Ingresos = 3800, Contacto = 45781230 });
+            ListaDeClientes.Add(new Clientes() { Nombre = "Amelia", Apellido = "Velasquez", Nacionalidad = "Polaca", Edad = 24, Profesion = "Nutricionista", Ingresos = 3800, Contacto = 45781230 });
 
             ListaDeClientes.Sort((x, y) => string.Compare(x.Nombre, y.Nombre));
             return ListaDeClientes; 
