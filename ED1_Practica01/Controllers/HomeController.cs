@@ -16,7 +16,7 @@ namespace ED1_Practica01.Controllers
 
             public string Index()
             {
-                return "Practica01: Para obtener la lista clientes agrergar a la URL --/Cliente/obtenerListaClientes--, para obtener ordenamiento por apellido";
+                return "Para obtener la lista clientes agrergar a la URL --/Cliente/obtenerListaClientes--, para obtener ordenamiento por nombre /Cliente/ObtenerNombreClientes";
             }
 
             public IActionResult Privacy()
